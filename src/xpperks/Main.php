@@ -17,8 +17,6 @@ use pocketmine\event\entity\EntitySpawnEvent;
 use pocketmine\entity\Effect;
 use pocketmine\entity\EffectInstance;
 
-
-
 class Main extends PluginBase implements Listener{
 	
 
