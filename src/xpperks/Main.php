@@ -1,10 +1,6 @@
 <?php
 
-
-
 namespace xpperks;
-
-
 
 use pocketmine\command\Command;
 use pocketmine\event\Listener;
@@ -59,9 +55,9 @@ class Main extends PluginBase implements Listener{
 
             case 1:
             $axp = $player->getXpLevel();
-			$z = $axp - 10;
-			if($z >= 0) {
-				$player->setXpLevel($z);
+			$xp = $axp - 10;
+			if($xp >= 0) {
+				$player->setXpLevel($xp);
            		$effect = new EffectInstance(Effect::getEffectByName("NIGHT_VISION"));
 				$effect->setAmplifier(5);
 				$player->addEffect($effect);
@@ -74,9 +70,9 @@ class Main extends PluginBase implements Listener{
 
             case 2:
             $axp = $player->getXpLevel();
-			$z = $axp - 20;
-			if($z >= 0) {
-				$player->setXpLevel($z);
+			$xp = $axp - 20;
+			if($xp >= 0) {
+				$player->setXpLevel($xp);
            		$effect = new EffectInstance(Effect::getEffectByName("HASTE"));
 				$effect->setAmplifier(5);
 				$player->addEffect($effect);
@@ -90,9 +86,9 @@ class Main extends PluginBase implements Listener{
 
             case 3:
             $axp = $player->getXpLevel();
-			$z = $axp - 10;
-			if($z >= 0) {
-				$player->setXpLevel($z);
+			$xp = $axp - 10;
+			if($xp >= 0) {
+				$player->setXpLevel($xp);
            		$effect = new EffectInstance(Effect::getEffectByName("JUMP"));
            		$effect->setAmplifier(5);
 				$player->addEffect($effect);
