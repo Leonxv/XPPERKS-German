@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Leonxv/XPPERKS-German
+build-by-default: true
+branches:
+- master
+projects:
+  XPPERKS-German:
+    path: ""
+...
