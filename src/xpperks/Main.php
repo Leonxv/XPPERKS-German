@@ -108,11 +108,11 @@ class Main extends PluginBase implements Listener{
  
 
         $form->setTitle("§6XPPerks");
-        $form->setContent("§bIhr kannst du von deinem XP Dir Perks Kaufen");
-        $form->addButton("§l§4Schließen");
-        $form->addButton("§l§aNachtsicht V\n §r§e 10 Level / 5 Minuten");
-        $form->addButton("§l§aEile V\n §r§e 20 Level / 5 Minuten");
-        $form->addButton("§l§aSprungkraft V\n §r§e 10 Level / 5 Minuten");
+        $form->setContent("§aIhr kannst du von deinem XP Dir Perks Kaufen");
+        $form->addButton("§4Schließen");
+        $form->addButton("§bNachtsicht V\n §r§e 10 Level / 5 Minuten");
+        $form->addButton("§bEile V\n §r§e 20 Level / 5 Minuten");
+        $form->addButton("§bSprungkraft V\n §r§e 10 Level / 5 Minuten");
         $form->sendToPlayer($player);
         return $form;
 
